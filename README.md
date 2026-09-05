@@ -1,4 +1,4 @@
-# Desafio Técnico - API de Tarefas
+# Desafio Técnico
 
 API REST para gerenciamento de tarefas, desenvolvida para o desafio técnico.
 
