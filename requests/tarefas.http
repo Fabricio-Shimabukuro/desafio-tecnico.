@@ -1,0 +1,28 @@
+### Criar tarefa
+POST http://localhost:8080/tarefas
+Content-Type: application/json
+
+{
+  "titulo": "Estudar Spring Boot",
+  "descricao": "Estudar criação de APIs REST com Spring Boot",
+  "prioridade": 1
+}
+
+### Listar todas
+GET http://localhost:8080/tarefas
+
+### Buscar por ID
+GET http://localhost:8080/tarefas/1
+
+### Atualizar
+PUT http://localhost:8080/tarefas/1
+Content-Type: application/json
+
+{
+  "titulo": "Estudar Spring Boot e JPA",
+  "descricao": "Estudar APIs REST, Spring Data JPA e banco H2",
+  "prioridade": 2
+}
+
+### Remover
+DELETE http://localhost:8080/tarefas/1
